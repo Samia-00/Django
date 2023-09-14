@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Information Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: white; /* Yellow background color */
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+            padding: 30px; /* Increased padding for larger body */
+            width: 400px; /* Increased width for larger body */
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px; /* Increased margin */
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn-container {
+            text-align: center;
+        }
+
+        .btn-submit {
+            background-color: #007BFF; /* Blue background color */
+            color: #fff;
+            padding: 12px 20px; /* Increased padding for larger button */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-submit:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-clear {
+            background-color: #ff3333; /* Red background color */
+            color: #fff;
+            padding: 12px 20px; /* Increased padding for larger button */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin-left: 10px;
+        }
+
+        .btn-clear:hover {
+            background-color: #cc0000; /* Darker red on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Basic Information Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="father">Father's Name:</label>
+            <input type="text" id="father" name="father" required>
+
+            <label for="mother">Mother's Name:</label>
+            <input type="text" id="mother" name="mother" required>
+
+            <label for="education">Education:</label>
+            <input type="text" id="education" name="education" required>
+
+             <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="color">Choose Color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="cv">Upload CV:</label>
+        <input type="file" id="cv" name="cv"><br><br>
+
+
+            <div class="btn-container">
+                <button type="submit" class="btn-submit">Submit</button>
+                <button type="reset" class="btn-clear">Clear</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

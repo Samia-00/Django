@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        select, input[type="radio"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Hotel Feedback Form</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="stay-feedback">How was your stay at our hotel? Were the accommodations suited? Help us improve the quality of our hotel by giving us your feedback. Thank you!</label>
+            </div>
+
+            <div class="form-group">
+                <label for="front-office-behavior">How did our front office staff behave during your stay?</label>
+                <select id="front-office-behavior" name="front-office-behavior">
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="fair">Fair</option>
+                    <option value="poor">Poor</option>
+                </select>
+            </div>
+
+            <!-- Add more questions in a similar format -->
+
+            <div class="form-group">
+                <label for="recommend">Would you recommend our hotel to other people?</label>
+                <label for="recommend-yes">Yes</label>
+                <input type="radio" id="recommend-yes" name="recommend" value="yes">
+                <label for="recommend-no">No</label>
+                <input type="radio" id="recommend-no" name="recommend" value="no">
+            </div>
+
+            <input type="submit" value="SUBMIT FORM">
+        </form>
+    </div>
+</body>
+</html>
