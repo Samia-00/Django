@@ -24,11 +24,23 @@ from django.urls import path
 #     url(r'^$',views.index)
 #     url(r'^admin/', admin.site.urls),
 # ]
+# from django.conf.urls import url
+# from django.contrib import admin
+# from first_app import views
+#
+# urlpatterns = [
+#     url(r'^$', views.index, name='index'),  # Comma was missing here
+#     url(r'^admin/', admin.site.urls),
+# ]
 from django.conf.urls import url
 from django.contrib import admin
+from django.conf.urls import include
 from first_app import views
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),  # Comma was missing here
+    # url(r'^$', views.index, name='index'), # Comma was missing here
+    # url(r'^mynewextension/',include('appTwo.urls')),
+    url(r'^help/',include('first_app.urls')),
+    url(r'^index/',include('first_app.urls')),
     url(r'^admin/', admin.site.urls),
 ]
