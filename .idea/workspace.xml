@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="edf85ba6-37f0-467f-baac-f947a203c584" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model_overview/first_project/first_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model_overview/first_project/first_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model_overview/first_project/static/css/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Model_overview/first_project/static/css/mystyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model_overview/first_project/template/firstApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Model_overview/first_project/template/firstApp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model_overview/first_project/template/static/css/mystyle.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
