@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="edf85ba6-37f0-467f-baac-f947a203c584" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysiteApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysiteApp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysiteApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysiteApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysiteApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysiteApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysiteApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLevelTwo/mysite/mysiteApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLevelTwo/mysite/template/mysiteApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLevelTwo/mysite/template/mysiteApp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
