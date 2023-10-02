@@ -1,6 +1,6 @@
 h1{
  color: red;
 }
-.djangotwo{
+table, th, td{
     border: 2px solid black
 }
