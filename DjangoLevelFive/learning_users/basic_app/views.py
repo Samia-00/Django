@@ -8,6 +8,8 @@ from django.urls import reverse
 # from django_scrypt.hashers import ScryptPasswordHasher
 from django.contrib.auth.decorators import login_required
 
+
+
 def index(request):
     return render(request, 'basic_app/index.html')
 
@@ -18,7 +20,8 @@ def special(request):
 @login_required
 def user_logout(request):
     logout(request)
-    return HttpResponseRedirect(reverse('basic_app/index.html'))
+    return render(request, 'basic_app/index.html')
+    # return HttpResponseRedirect(reverse('basic_app:index.html'))
 
 def register(request):
     registered = False
@@ -27,8 +30,9 @@ def register(request):
         user_form = UserForm(data=request.POST)
         profile_form = UserProfileInfoForm(data=request.POST)
         if user_form.is_valid() and profile_form.is_valid():
-            user = user_form.save()
-            user.set_password(user.password)
+            user = user_form.save(commit=False)
+            password = user_form.cleaned_data['password']
+            user.set_password(password)
             user.save()
 
             profile = profile_form.save(commit=False)
