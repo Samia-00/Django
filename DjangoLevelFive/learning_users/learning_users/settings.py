@@ -26,8 +26,8 @@ DEBUG = True
 
 # settings.py
 
-ALLOWED_HOSTS = ['samia00.pythonanywhere.com', 'yourdomain.com', 'otherdomain.com']
-
+# ALLOWED_HOSTS = ['samia00.pythonanywhere.com', 'yourdomain.com', 'otherdomain.com']
+ALLOWED_HOSTS = ['192.168.200.110', 'localhost', '127.0.0.1']
 
 
 # Application definition
