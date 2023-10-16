@@ -26,9 +26,11 @@ DEBUG = True
 
 # settings.py
 
-ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['samia00.pythonanywhere.com']
 # ALLOWED_HOSTS = ['192.168.200.110', 'localhost', '127.0.0.1', 'samia00.pythonanywhere.com']
-
+ALLOWED_HOSTS = ['*', 'samia00.pythonanywhere.com']
+CORS_ORIGIN_ALLOW_ALL = True
+CSRF_TRUSTED_ORIGINS = ['http://0.0.0.0']
 
 # Application definition
 
