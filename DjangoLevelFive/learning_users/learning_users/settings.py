@@ -26,7 +26,7 @@ DEBUG = True
 
 # settings.py
 
-ALLOWED_HOSTS = ['https://samia00.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 # ALLOWED_HOSTS = ['192.168.200.110', 'localhost', '127.0.0.1', 'samia00.pythonanywhere.com']
 
 
