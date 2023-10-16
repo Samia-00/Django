@@ -24,7 +24,10 @@ SECRET_KEY = 'django-insecure-pe%16@!u@*39d8$o2l#7aip=8e50@uupg7!8kbggmj-il_a!k0
 DEBUG = True
 
 
-ALLOWED_HOSTS = []
+# settings.py
+
+ALLOWED_HOSTS = ['samia00.pythonanywhere.com', 'yourdomain.com', 'otherdomain.com']
+
 
 
 # Application definition
