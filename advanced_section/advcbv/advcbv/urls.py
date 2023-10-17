@@ -23,5 +23,5 @@ from basic_app import views
 urlpatterns = [
     re_path(r'^admin/',admin.site.urls),
     re_path(r'^$', views.IndexView.as_view()),
-    re_path(r'^basic_app/', include('basic_app.urls', namespace='basic_app')),
+    re_path(r'^basic_app/', include('basic_app.urls', namespace='basic_app'))
 ]
