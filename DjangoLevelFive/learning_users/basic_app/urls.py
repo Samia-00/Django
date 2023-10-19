@@ -1,4 +1,5 @@
 # from django.conf.urls import url
+
 from basic_app import views
 from django.urls import include, re_path
 # from django.urls import include
