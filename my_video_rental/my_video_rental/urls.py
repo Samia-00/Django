@@ -1,5 +1,5 @@
 """
-URL configuration for advcbv project.
+URL configuration for my_video_rental project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -14,22 +14,9 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.conf import settings
 from django.contrib import admin
 from django.urls import path
-from django.urls import include, re_path
-from basic_app import views
-
-
 
 urlpatterns = [
-    re_path(r'^admin/',admin.site.urls),
-    re_path(r'^$', views.IndexView.as_view()),
-    re_path(r'^basic_app/', include('basic_app.urls', namespace='basic_app'))
+    path('admin/', admin.site.urls),
 ]
-
-if settings.DEBUG:
-    import debug_toolbar
-    urlpatterns = [
-        re_path(r'^__debuug__/',include(debug_toolbar.urls))
-    ] + urlpatterns
